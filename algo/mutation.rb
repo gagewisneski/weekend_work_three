@@ -3,7 +3,11 @@
 # the first string, and false otherwise.
 
 def mutation?(base_word, mutation)
-
+  if (mutation.chars - base_word.chars).empty?
+    result = true
+  else
+    reult = false
+  end
 end
 
 # Driver code - don't touch anything below this line.
